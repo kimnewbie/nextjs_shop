@@ -1,6 +1,6 @@
 import Head from "next/head";
 
-const HomePage: React.FC = () => {
+function HomePage({ products }) {
   return (
     <>
       <Head>
